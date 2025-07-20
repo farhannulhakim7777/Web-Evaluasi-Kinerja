@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Penilaian Kinerja Perusahaan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="overlay"> <!-- AWAL overlay -->
+
+        <!-- Logo pojok kiri atas -->
+        <div class="logo-header">
+            <img src="/img/logoVAM.png" alt="Logo VAM Supplier" class="logo-kiri">
+            <h1 class="judul-tengah">PENILAIAN KINERJA <span>PT.VAM</span></h1>
+        </div>
+        <div class="separator"></div>
+
+        <!-- Form Penilaian -->
+        <div class="container">
+            <form id="penilaianForm">
+                <div class="Pertanyaan">
+                    <p>1. Bagaimana Anda menilai pelayanan dari Customer Service kami?</p>
+                    <label><input type="radio" name="q1" value="Sangat Baik" required> A. Sangat Baik</label>
+                    <label><input type="radio" name="q1" value="Cukup Baik"> B. Cukup Baik</label>
+                    <label><input type="radio" name="q1" value="Perlu Ditingkatkan"> C. Perlu Ditingkatkan</label>
+                </div>
+
+                <div class="Pertanyaan">
+                    <p>2. Apakah pengiriman produk dilakukan tepat waktu?</p>
+                    <label><input type="radio" name="q2" value="Selalu Tepat Waktu" required> A. Selalu Tepat Waktu</label>
+                    <label><input type="radio" name="q2" value="Kadang Terlambat"> B. Kadang Terlambat</label>
+                    <label><input type="radio" name="q2" value="Sering Terlambat"> C. Sering Terlambat</label>
+                </div>
+
+                <div class="Pertanyaan">
+                    <p>3. Bagaimana kualitas produk yang Anda terima?</p>
+                    <label><input type="radio" name="q3" value="Sangat Memuaskan" required> A. Sangat Memuaskan</label>
+                    <label><input type="radio" name="q3" value="Standar"> B. Standar</label>
+                    <label><input type="radio" name="q3" value="Kurang Memuaskan"> C. Kurang Memuaskan</label>
+                </div>
+
+                <div class="Pertanyaan">
+                    <p>4. Seberapa ramah staf kami saat berinteraksi?</p>
+                    <label><input type="radio" name="q4" value="Sangat Ramah" required> A. Sangat Ramah</label>
+                    <label><input type="radio" name="q4" value="Biasa Saja"> B. Biasa Saja</label>
+                    <label><input type="radio" name="q4" value="Kurang Ramah"> C. Kurang Ramah</label>
+                </div>
+
+                <div class="Pertanyaan">
+                    <p>5. Apakah Anda merasa terbantu dengan layanan teknis kami?</p>
+                    <label><input type="radio" name="q5" value="Sangat Terbantu" required> A. Sangat Terbantu</label>
+                    <label><input type="radio" name="q5" value="Terbantu"> B. Terbantu</label>
+                    <label><input type="radio" name="q5" value="Tidak Terbantu"> C. Tidak Terbantu</label>
+                </div>
+
+                <div class="Pertanyaan">
+                    <p>6. Apakah Anda mendapatkan informasi yang cukup selama proses layanan?</p>
+                    <label><input type="radio" name="q6" value="Sangat Jelas" required> A. Sangat Jelas</label>
+                    <label><input type="radio" name="q6" value="Cukup"> B. Cukup</label>
+                    <label><input type="radio" name="q6" value="Kurang Jelas"> C. Kurang Jelas</label>
+                </div>
+
+                <div class="Pertanyaan">
+                    <p>7. Seberapa puas Anda secara keseluruhan dengan layanan kami?</p>
+                    <label><input type="radio" name="q7" value="Sangat Puas" required> A. Sangat Puas</label>
+                    <label><input type="radio" name="q7" value="Cukup Puas"> B. Cukup Puas</label>
+                    <label><input type="radio" name="q7" value="Tidak Puas"> C. Tidak Puas</label>
+                </div>
+
+                <button type="submit">Kirim Penilaian</button>
+            </form>
+        </div>
+
+    </div> <!-- AKHIR overlay -->
+
+
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
