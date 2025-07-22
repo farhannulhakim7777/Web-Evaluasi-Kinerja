@@ -196,21 +196,32 @@ button:hover {
         font-size: 15px;
     }
 }
-
 .footer {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.85); /* sedikit transparan */
-    padding: 1.2rem 0;
-    text-align: center;
-    color: #333;
-    font-size: 0.9rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-top: 1px solid #ccc;
-    backdrop-filter: blur(5px);
-    margin: 0; /* pastikan tidak ada margin */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Menyatu dengan tema gelap */
+  backdrop-filter: blur(6px);
+ padding: 1.5rem 0 2.5rem;
+  color: #f1f1f1;
+  border-top: 2px solid rgba(247, 178, 23, 0.6); /* garis atas tipis warna emas muda */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position:     relative;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer .heart {
+  color: rgba(247, 178, 23, 0.88); /* warna aksen kuning sesuai span heading */
 }
 
 
-.footer-container p {
-    margin: 4px 0;
-}
